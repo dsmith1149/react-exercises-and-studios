@@ -1,0 +1,50 @@
+/* Main container styles */
+.main {
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Book list container */
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Individual book item styles */
+.book-item {
+    max-width: 200px; /* Restrict the width of each book item */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Book image styling */
+.book-image {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Book title styling */
+.book-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 5px;
+}

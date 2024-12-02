@@ -1,0 +1,17 @@
+.hobby-links {
+    list-style: none; /* Removes bullets */
+    padding: 0;
+}
+
+.hobby-links li {
+    margin: 8px 0; /* Adds space between items */
+}
+
+.hobby-links a {
+    color: blue; /* Link color */
+    text-decoration: none; /* Removes underline */
+}
+
+.hobby-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

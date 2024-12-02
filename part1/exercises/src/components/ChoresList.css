@@ -1,0 +1,17 @@
+.main{
+    color: black;
+    font-family: Arial;
+    text-align: left;
+}
+
+.chores-list {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+.title {
+    color: black;
+    text-decoration: underline;
+    font-family: Arial; 
+    text-align: left;
+ }
